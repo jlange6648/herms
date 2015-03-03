@@ -5,7 +5,7 @@ I-Logix-RPY-Archive version 8.11.0 * 8254044
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 8;
+		- size = 4;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -16,23 +16,23 @@ I-Logix-RPY-Archive version 8.11.0 * 8254044
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
-				- m_nLeft = 200;
-				- m_nTop = 200;
-				- m_nRight = 1345;
-				- m_nBottom = 657;
+				- m_nLeft = 100;
+				- m_nTop = 100;
+				- m_nRight = 1245;
+				- m_nBottom = 557;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IActivityDiagram";
+				- _m2Class = "IStateChartDiagram";
 				- _filename = "ControllerPkg.sbs";
 				- _subsystem = "ControllerPkg";
 				- _class = "Controller";
-				- _name = "ActivityDiagram";
-				- _id = GUID c53b972d-c4cf-4cb7-ac68-9c05b2e6d389;
+				- _name = "StatechartDiagram.ROOT.idle";
+				- _id = GUID 49250855-5010-43d9-b4a4-c3a14b27f88e;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1108 398 ;
-			- _instanceName = "";
+			- _UpLeft = 0 173 ;
+			- _DownRight = 1108 571 ;
+			- _instanceName = "Controller[0]";
 			- m_nDiagramIndex = 0;
 		}
 		{ CGEMdiDiagramParams 
@@ -44,24 +44,24 @@ I-Logix-RPY-Archive version 8.11.0 * 8254044
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 1145;
-				- m_nBottom = 457;
+				- m_nLeft = 25;
+				- m_nTop = 25;
+				- m_nRight = 1170;
+				- m_nBottom = 451;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
+				- _m2Class = "IStateChartDiagram";
 				- _filename = "ControllerPkg.sbs";
 				- _subsystem = "ControllerPkg";
 				- _class = "Controller";
-				- _name = "block definition diagram_9";
-				- _id = GUID ba5830c7-2cb1-40aa-80ff-43e11f6b96f7;
+				- _name = "StatechartDiagram.ROOT.run.ROOT.run.water_fill";
+				- _id = GUID 3d532a22-b6b2-4ada-9e94-9188ba0a7cac;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 879 316 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- _DownRight = 1108 367 ;
+			- _instanceName = "Controller[0]";
+			- m_nDiagramIndex = 1;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -75,27 +75,27 @@ I-Logix-RPY-Archive version 8.11.0 * 8254044
 				- m_nLeft = 200;
 				- m_nTop = 200;
 				- m_nRight = 1345;
-				- m_nBottom = 657;
+				- m_nBottom = 626;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
+				- _m2Class = "IStateChartDiagram";
 				- _filename = "ControllerPkg.sbs";
 				- _subsystem = "ControllerPkg";
-				- _class = "";
-				- _name = "High-Level block definition diagram";
-				- _id = GUID da252c55-8922-4ab2-867b-dba507ed02f8;
+				- _class = "Controller";
+				- _name = "StatechartDiagram";
+				- _id = GUID 32ab8a6c-e122-458f-99e3-d518129caf81;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1108 398 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 3;
+			- _DownRight = 1108 367 ;
+			- _instanceName = "Controller[0]";
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -114,122 +114,10 @@ I-Logix-RPY-Archive version 8.11.0 * 8254044
 				- _name = "DefaultComponent\\UI";
 				- _id = GUID 6e48b497-40b1-4380-a5c4-b711e8d46cad;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1108 398 ;
+			- _UpLeft = 0 60 ;
+			- _DownRight = 1324 696 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 1;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 50;
-				- m_nTop = 50;
-				- m_nRight = 919;
-				- m_nBottom = 454;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStructureDiagram";
-				- _filename = "SystemPkg.sbs";
-				- _subsystem = "SystemPkg";
-				- _class = "HERMS";
-				- _name = "Fluid Flow";
-				- _id = GUID 9105bcb4-2bd8-459a-9dc5-864b71e46d52;
-			}
-			- _UpLeft = -51 0 ;
-			- _DownRight = 781 345 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 5;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 125;
-				- m_nTop = 125;
-				- m_nRight = 994;
-				- m_nBottom = 529;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "SystemPkg.sbs";
-				- _subsystem = "SystemPkg";
-				- _class = "HERMS";
-				- _name = "block definition diagram_6";
-				- _id = GUID 9a8bf956-2831-4634-b18a-b5b96a4d3ac4;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 832 345 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 7;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 750;
-				- m_nBottom = 404;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStructureDiagram";
-				- _filename = "SystemPkg.sbs";
-				- _subsystem = "SystemPkg";
-				- _class = "HotLiqourTank";
-				- _name = "HLT";
-				- _id = GUID 3c5c8731-6e8e-4d82-af9b-b1d2187748c3;
-			}
-			- _UpLeft = -127 0 ;
-			- _DownRight = 586 345 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 4;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 125;
-				- m_nTop = 125;
-				- m_nRight = 994;
-				- m_nBottom = 529;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IDiagram";
-				- _filename = "SystemPkg.sbs";
-				- _subsystem = "SystemPkg";
-				- _class = "Valve";
-				- _name = "Valve BDD";
-				- _id = GUID 51500b0a-e84d-47fd-9529-ceb9d93a5d43;
-			}
-			- _UpLeft = 0 10 ;
-			- _DownRight = 832 355 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 6;
+			- m_nDiagramIndex = 3;
 		}
 	}
 	- _fullName = "D:\\jeff\\HERMS\\HERMS";

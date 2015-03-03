@@ -3,13 +3,10 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _id = GUID 6e498c63-14e9-4221-be79-feafac67cb9c;
 	- _myState = 8192;
 	- _name = "SystemPkg";
-	- _modifiedTimeWeak = 2.23.2015::2:38:31;
+	- _modifiedTimeWeak = 3.3.2015::3:17:3;
 	- _lastID = 8;
-	- weakCGTime = 2.23.2015::2:38:31;
+	- weakCGTime = 3.3.2015::3:17:3;
 	- strongCGTime = 2.22.2015::19:6:39;
-	- AssociationElements = { IRPYRawContainer 
-		- size = 0;
-	}
 	- _defaultComposite = GUID 4c4fe8f6-c6d3-4f32-affa-8a3709c3915a;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -19,19 +16,13 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 4c4fe8f6-c6d3-4f32-affa-8a3709c3915a;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.22.2015::19:29:39;
+			- _modifiedTimeWeak = 3.3.2015::1:41:48;
 			- _lastID = 1;
-			- weakCGTime = 2.22.2015::19:29:39;
+			- weakCGTime = 3.3.2015::1:41:48;
 			- strongCGTime = 2.22.2015::19:6:39;
 			- _multiplicity = "";
-			- StateCharts = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 		}
@@ -51,7 +42,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 2.23.2015::2:5:20;
+			- _modifiedTimeWeak = 3.3.2015::3:19:6;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "";
@@ -336,7 +327,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						}
 					}
 					- _modifiedTimeWeak = 2.8.2015::0:37:10;
-					- _lastModifiedTime = "2.23.2015::2:5:20";
+					- _lastModifiedTime = "3.3.2015::3:17:3";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 98d710d2-8290-4507-814d-ba8bc47f872f;
 						- m_type = 0;
@@ -1289,7 +1280,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "2.23.2015::1:55:31";
+					- _lastModifiedTime = "3.3.2015::2:33:2";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 364a3375-5c19-40b2-830d-61eea0871dfa;
 						- m_type = 0;
@@ -1354,7 +1345,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 97ec87b5-e0a7-42b5-9681-e06f31ad9162;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID d13937e4-2864-4416-b8a1-3c4a76f5068c;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -1905,7 +1917,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- direction_ = toEnd2;
 				}
 			}
-			- weakCGTime = 2.23.2015::2:5:20;
+			- weakCGTime = 3.3.2015::3:19:6;
 			- strongCGTime = 2.22.2015::19:6:39;
 			- Ports = { IRPYRawContainer 
 				- size = 2;
@@ -1978,7 +1990,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID 7a8e1119-5a2e-48b9-8c4b-558bc8eb15ed;
 					- _myState = 8192;
 					- _name = "volume";
-					- _modifiedTimeWeak = 2.21.2015::15:4:54;
+					- _modifiedTimeWeak = 3.3.2015::3:19:6;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
 						- _filename = "PredefinedTypesC++.sbs";
@@ -2055,10 +2067,10 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 				- size = 2;
 				- value = 
 				{ IFile 
-					- _id = GUID 8aa967a5-c261-4678-be0c-6a12c84ea7de;
+					- _id = GUID 3782aa45-195a-4210-9662-f6263f388e13;
 					- _myState = 139264;
 					- _name = "Kettle";
-					- _modifiedTimeWeak = 2.23.2015::2:5:20;
+					- _modifiedTimeWeak = 3.3.2015::2:32:53;
 					- m_path = "";
 					- m_type = implFile;
 					- Fragments = { IRPYRawContainer 
@@ -2067,7 +2079,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						{ IFileFragment 
 							- _id = GUID 31de4234-2f09-4ea3-a5c0-987f8df37d70;
 							- _name = "Kettle";
-							- _modifiedTimeWeak = 2.23.2015::2:5:20;
+							- _modifiedTimeWeak = 3.3.2015::2:32:53;
 							- m_type = implFragment;
 							- m_text = "";
 							- m_startRow = 28;
@@ -2078,17 +2090,14 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 								- _m2Class = "IClass";
 								- _id = GUID 6db74e1e-a795-47e5-9d83-6bc80f82edb4;
 							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
-							}
 						}
 					}
 				}
 				{ IFile 
-					- _id = GUID 4c7148be-0dbc-4def-95df-7215c94679a0;
+					- _id = GUID e22955e3-a642-425d-8650-ed270c94f32b;
 					- _myState = 139264;
 					- _name = "Kettle";
-					- _modifiedTimeWeak = 2.23.2015::2:5:20;
+					- _modifiedTimeWeak = 3.3.2015::2:32:53;
 					- m_path = "";
 					- m_type = specFile;
 					- Fragments = { IRPYRawContainer 
@@ -2097,7 +2106,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						{ IFileFragment 
 							- _id = GUID 145a7f3c-5dd9-4ec8-a213-66a97248c3e8;
 							- _name = "Kettle";
-							- _modifiedTimeWeak = 2.23.2015::2:5:20;
+							- _modifiedTimeWeak = 3.3.2015::2:32:53;
 							- Tags = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -2161,7 +2170,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 								- _id = GUID 6db74e1e-a795-47e5-9d83-6bc80f82edb4;
 							}
 							- Fragments = { IRPYRawContainer 
-								- size = 8;
+								- size = 6;
 								- value = 
 								{ IFileFragment 
 									- _id = GUID 1a318469-38d6-42a9-af97-fc8860e33e88;
@@ -2189,21 +2198,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_startCol_Short = 5;
 									- m_endRow = 47;
 									- m_endCol_Short = 42;
-									- m_subject = { INObjectHandle 
-										- _m2Class = "";
-									}
-								}
-								{ IFileFragment 
-									- _id = GUID 15ecc6c2-06ef-4d6a-a209-b70d565a3d42;
-									- _name = "////    Attributes    ////";
-									- _modifiedTimeWeak = 2.7.2015::23:48:6;
-									- m_type = textFragment;
-									- m_text = "////    Attributes    ////
-";
-									- m_startRow = 49;
-									- m_startCol_Short = 5;
-									- m_endRow = 49;
-									- m_endCol_Short = 31;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
@@ -2266,21 +2260,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "IAttribute";
 										- _id = GUID 6e0d254c-5271-4e7f-8453-5b9861ddb572;
-									}
-								}
-								{ IFileFragment 
-									- _id = GUID dd97dd8a-41bb-4aa1-863e-5b1aadcd2988;
-									- _name = "itsLevelSensor";
-									- _modifiedTimeWeak = 2.7.2015::23:48:6;
-									- m_type = specFragment;
-									- m_text = "";
-									- m_startRow = 112;
-									- m_startCol_Short = 18;
-									- m_endRow = 112;
-									- m_endCol_Short = 32;
-									- m_subject = { INObjectHandle 
-										- _m2Class = "IAssociationEnd";
-										- _id = GUID 8199644f-d7d2-4be6-a965-8c19831fed2c;
 									}
 								}
 							}
@@ -3067,23 +3046,19 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- Associations = { IRPYRawContainer 
 				- size = 1;
 				- value = 
-				{ IAssociationEnd 
-					- _id = GUID 8199644f-d7d2-4be6-a965-8c19831fed2c;
-					- _myState = 10240;
-					- _name = "itsLevelSensor";
-					- _modifiedTimeWeak = 2.21.2015::15:4:54;
+				{ IPart 
+					- _id = GUID f4b087a0-ffae-4a09-8d93-a92f4144b551;
+					- _myState = 8192;
+					- _name = "levelSensor";
+					- _modifiedTimeWeak = 3.3.2015::2:33:2;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _id = GUID 79aaa4b4-0847-4258-b3b7-ed4c76c05c22;
 					}
 					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 9324ac2e-90e4-485d-9a2e-c01de86f47e5;
+						- _m2Class = "";
 					}
-					- _linkName = "";
-					- _linkType = Aggreg;
-					- _navigability = Navigable;
 				}
 			}
 			- _classModifier = Unspecified;
@@ -3104,7 +3079,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 2.22.2015::19:6:39;
+			- _modifiedTimeWeak = 3.3.2015::2:32:53;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "ControllerPkg.sbs";
@@ -3573,7 +3548,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						}
 					}
 					- _modifiedTimeWeak = 2.8.2015::0:39:42;
-					- _lastModifiedTime = "2.21.2015::14:53:14";
+					- _lastModifiedTime = "3.3.2015::1:41:48";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 60d6af48-8843-4380-9e7f-a44c1c8f2577;
 						- m_type = 0;
@@ -4323,7 +4298,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- direction_ = toEnd2;
 				}
 			}
-			- weakCGTime = 2.22.2015::19:6:39;
+			- weakCGTime = 3.3.2015::2:32:53;
 			- strongCGTime = 2.22.2015::19:6:39;
 			- Ports = { IRPYRawContainer 
 				- size = 1;
@@ -4402,15 +4377,14 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID 9324ac2e-90e4-485d-9a2e-c01de86f47e5;
 					- _myState = 10240;
 					- _name = "itsKettle";
-					- _modifiedTimeWeak = 2.7.2015::22:18:48;
+					- _modifiedTimeWeak = 3.3.2015::2:32:53;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IClass";
 						- _id = GUID 6db74e1e-a795-47e5-9d83-6bc80f82edb4;
 					}
 					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 8199644f-d7d2-4be6-a965-8c19831fed2c;
+						- _m2Class = "";
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -5263,7 +5237,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- _id = GUID b2944aa1-daf4-4596-9707-d7ae5b2f2976;
 						}
 					}
-					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _modifiedTimeWeak = 2.22.2015::19:34:9;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 51500b0a-e84d-47fd-9529-ceb9d93a5d43;
@@ -5271,9 +5245,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _lastID = 3;
 					- weakCGTime = 2.22.2015::19:34:9;
 					- strongCGTime = 1.2.1990::0:0:0;
-					- Ports = { IRPYRawContainer 
-						- size = 0;
-					}
 					- Attrs = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -6084,7 +6055,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						}
 					}
 					- _version = 2.22.2015::13:50:44;
-					- _baseVersion = 12.31.1969::19:0:0;
+					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID 10e1a485-6247-4d0f-8973-bfb87ae072f9;
 					- Views = { IRPYRawContainer 
 						- size = 1;
@@ -7162,7 +7133,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 2.23.2015::2:40:55;
+			- _modifiedTimeWeak = 3.3.2015::2:33:2;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "ControllerPkg.sbs";
@@ -7475,7 +7446,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 6138b915-7c67-47d5-8cb2-3f6981aad6d0;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID bf215f4f-d19d-40c3-b0dc-07f47ef8f724;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -8362,7 +8354,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						}
 					}
 					- _modifiedTimeWeak = 2.23.2015::2:21:27;
-					- _lastModifiedTime = "2.23.2015::2:42:40";
+					- _lastModifiedTime = "3.3.2015::2:33:2";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 5d54e245-bf57-43cc-9082-f9ca525eb66c;
 						- m_type = 0;
@@ -8427,7 +8419,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 8e80e1f2-1457-4d57-b7ae-e7f4b2b91ee4;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID bb1fd7c3-0bdb-4f4b-9fc4-01ced689cff8;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -8542,7 +8555,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v1:Valve";
+								- m_str = "v1";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -8901,7 +8914,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v2:Valve";
+								- m_str = "v2";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -9255,7 +9268,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "mashtun:Kettle";
+								- m_str = "mashtun";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -9725,7 +9738,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "pump:Pump";
+								- m_str = "pump";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -10248,7 +10261,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "HeatedKettle";
+								- m_str = "boil";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -10694,7 +10707,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "hlt:HotLiqourTank";
+								- m_str = "hlt";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -11067,7 +11080,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v3:Valve";
+								- m_str = "v3";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -11671,7 +11684,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v4:Valve";
+								- m_str = "v4";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -12154,7 +12167,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v5:Valve";
+								- m_str = "v5";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -12560,7 +12573,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "rateLimiter:VariableValve";
+								- m_str = "rateLimiter";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -13006,7 +13019,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v6:Valve";
+								- m_str = "v6";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -13375,7 +13388,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v7:Valve";
+								- m_str = "v7";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -13744,7 +13757,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v8:Valve";
+								- m_str = "v8";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -14113,7 +14126,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v9:Valve";
+								- m_str = "v9";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -14482,7 +14495,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "v10:Valve";
+								- m_str = "v10";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -15236,7 +15249,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "hlt:HotLiqourTank";
+								- m_str = "hlt";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -16263,7 +16276,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID 3bf3855e-a09a-4e30-9ae5-e4c4bc1b93e5;
 							- m_name = { CGIText 
-								- m_str = "boil:HeatedKettle";
+								- m_str = "boil";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -17462,7 +17475,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- direction_ = toEnd2;
 				}
 			}
-			- weakCGTime = 2.23.2015::2:40:55;
+			- weakCGTime = 3.3.2015::2:33:2;
 			- strongCGTime = 2.22.2015::19:49:20;
 			- Ports = { IRPYRawContainer 
 				- size = 2;
@@ -19167,7 +19180,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID e546a2e5-f248-4e97-a011-865b41a7aad6;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID aa2f765b-862f-4cff-a2dd-3e4db0d8a842;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -20052,7 +20086,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- _defaultTrans = ;
 						}
 					}
-					- _version = 2.22.2015::20:48:54;
+					- _version = 3.2.2015::19:17:47;
 					- _baseVersion = 2.22.2015::14:58:58;
 					- _diagram = GUID ec776834-9753-423d-a384-bc3fa8896b58;
 					- Views = { IRPYRawContainer 
@@ -20352,7 +20386,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 										- m_nOrientationCtrlPt = 8;
 									}
 									- m_drawBehavior = 4096;
-									- m_transform = 2.63889 0 0 3.63636 20 20 ;
+									- m_transform = 2.63889 0 0 3.7197 20 9 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -21207,7 +21241,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 5b83e25a-b2a8-4656-bd67-fb33236fe7fe;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID 8dd2147c-261e-4301-8863-5ce39263382c;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -21526,7 +21581,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 		}
 		{ IClass 
 			- _id = GUID 07e2fb2d-72e2-432d-a97c-f7a695debdf0;
-			- _myState = 73728;
+			- _myState = 8192;
 			- _name = "VariableValve";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 1;
@@ -21540,9 +21595,33 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 2.23.2015::2:9:14;
-			- weakCGTime = 2.23.2015::2:9:14;
+			- _modifiedTimeWeak = 3.3.2015::3:5:41;
+			- _lastID = 1;
+			- weakCGTime = 3.3.2015::3:5:41;
 			- strongCGTime = 2.23.2015::2:8:37;
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 848b4dc8-ad6f-49bf-807f-cf2c283e9046;
+					- _myState = 8192;
+					- _name = "rate";
+					- _modifiedTimeWeak = 3.3.2015::3:5:41;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
 				- value = 
