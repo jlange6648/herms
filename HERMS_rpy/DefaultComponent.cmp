@@ -1,0 +1,1966 @@
+I-Logix-RPY-Archive version 8.11.0 C++ 8254044
+{ IComponent 
+	- _id = GUID 13ff702b-7575-48e5-8eff-456e8c47bb56;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 3.2.2015::23:51:6;
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IPanelDiagram 
+			- _id = GUID 6e48b497-40b1-4380-a5c4-b711e8d46cad;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 5;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "ButtonArray";
+								- Properties = { IRPYRawContainer 
+									- size = 5;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,100,50";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.Transparent_Fill";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.Transparent";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "DiagramFrame";
+								- Properties = { IRPYRawContainer 
+									- size = 8;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "20,20,590,500";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "247,247,247";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Fill.Transparent_Fill";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight@Child.NameCompartment@Name";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "194,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "FreeText";
+								- Properties = { IRPYRawContainer 
+									- size = 6;
+									- value = 
+									{ IProperty 
+										- _Name = "Fill.Transparent_Fill";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "HorzAlign";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.Transparent";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Multiline";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+									{ IProperty 
+										- _Name = "VertAlign";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Wordbreak";
+										- _Value = "False";
+										- _Type = Bool;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "PushButton";
+								- Properties = { IRPYRawContainer 
+									- size = 5;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,100,50";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.Transparent_Fill";
+										- _Value = "1";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.Transparent";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Rectangle";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "UI";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _lastModifiedTime = "3.2.2015::23:52:55";
+			- _graphicChart = { CGIClassChart 
+				- _id = GUID 5c6c6d3d-635f-4ade-b9b7-c8096c7e7def;
+				- m_type = 0;
+				- m_pModelObject = { IHandle 
+					- _m2Class = "IPanelDiagram";
+					- _id = GUID 6e48b497-40b1-4380-a5c4-b711e8d46cad;
+				}
+				- m_pParent = ;
+				- m_name = { CGIText 
+					- m_str = "";
+					- m_style = "Arial" 10 0 0 0 1 ;
+					- m_color = { IColor 
+						- m_fgColor = 0;
+						- m_bgColor = 0;
+						- m_bgFlag = 0;
+					}
+					- m_position = 1 0 0  ;
+					- m_nIdent = 0;
+					- m_bImplicitSetRectPoints = 0;
+					- m_nOrientationCtrlPt = 8;
+				}
+				- m_drawBehavior = 0;
+				- m_bIsPreferencesInitialized = 0;
+				- elementList = 19;
+				{ CGIBox 
+					- _id = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_type = 215;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 0;
+					- m_polygon = 0 ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIDiagramFrame 
+					- _id = GUID 26fe044b-40eb-46eb-ab0e-e7cf48e7c1f3;
+					- m_type = 203;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 2.63889 0 0 3.63636 20 20 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 0 0  0 132  216 132  216 0  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIFreeShape 
+					- _id = GUID 70c6b98c-eeda-498d-99c3-5dc8807891c7;
+					- m_type = 185;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 1 0 0 1 58 -11 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_points = 4 378 123  506 123  506 256  378 256  ;
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID 23248ec5-a6d9-4a01-9ffb-8540c456f44d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IReception";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "evPower()";
+						- _id = GUID b2625501-e7e0-4a4c-b2f2-d1a8e91441fe;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_0";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000815692 0 0 0.000261456 83 93.2913 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].evPower";
+					- m_csName = "pushbutton_0";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+					- m_csButtonCaption = "Power";
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID d39efcbf-3edf-4f41-a5a5-cc07d844d9fe;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IReception";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "evStartStop()";
+						- _id = GUID cd9679eb-84cb-469d-a993-a66787cc1440;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000805982 0 0 0.000261456 211 92.2913 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].evStartStop";
+					- m_csName = "pushbutton_1";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+					- m_csButtonCaption = "Start/Stop";
+				}
+				{ CGIActiveX 
+					- _id = GUID e737ec6d-c016-464e-bd5f-502990a5f3da;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "BoundElement";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IState";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "ROOT.run.ROOT.run.water_fill";
+						- _id = GUID ad3348b8-9a17-4eb4-b095-adcb222352a4;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "water_fill";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -16 -8  58 -8  58 10  -16 10  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 1;
+						- m_transform = 0.837839 0 0 1 429.405 150 ;
+						- m_nHorizontalSpacing = 40;
+						- m_nVerticalSpacing = 15;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 2048;
+					- m_transform = 0.000126238 0 0 0.000113298 462 147.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].High-Level State Chart.run.StatechartOfRun.water_fill";
+					- m_csName = "";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID 6ebde769-0384-4fc8-98d8-98d883706c3c;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "BoundElement";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IState";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "ROOT.run.ROOT.run.strike";
+						- _id = GUID e6415a7d-f0a1-445d-8064-8e5e167ea536;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "strike";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -6 -9  39 -9  39 9  -6 9  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 424 163 ;
+						- m_nHorizontalSpacing = 32;
+						- m_nVerticalSpacing = 15;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 2048;
+					- m_transform = 0.000126238 0 0 0.000113298 462 163.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].High-Level State Chart.run.StatechartOfRun.strike";
+					- m_csName = "led_1";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID edd9deca-ca57-4fb7-a915-b6c4a25c9fae;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "BoundElement";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IState";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "ROOT.run.ROOT.run.mash";
+						- _id = GUID 5eeb27f7-a2e2-4231-8aa8-403fabfd6d57;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "mash";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -6 -9  40 -9  40 9  -6 9  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 421 182 ;
+						- m_nHorizontalSpacing = 30;
+						- m_nVerticalSpacing = 15;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 2048;
+					- m_transform = 0.000126238 0 0 0.000113298 462 179.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].High-Level State Chart.run.StatechartOfRun.mash";
+					- m_csName = "led_2";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID f331133c-04e6-4a9d-8d9e-5e79648ddd68;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "BoundElement";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IState";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "ROOT.run.ROOT.run.sparge";
+						- _id = GUID b4ea88fa-05b1-4a53-ac6a-de02d20fb9c4;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "sparge";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -6 -9  50 -9  50 9  -6 9  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 420 199 ;
+						- m_nHorizontalSpacing = 34;
+						- m_nVerticalSpacing = 15;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 2048;
+					- m_transform = 0.000126238 0 0 0.000113298 462 195.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].High-Level State Chart.run.StatechartOfRun.sparge";
+					- m_csName = "led_3";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID 6618306a-80f2-4325-a8d3-4b74c3ba7e53;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "BoundElement";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IState";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "ROOT.run.ROOT.run.boil";
+						- _id = GUID 19b5a5dd-9961-44e3-b019-c793640fdc84;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "boil";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -6 -9  31 -9  31 9  -6 9  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 421 285 ;
+						- m_nHorizontalSpacing = 25;
+						- m_nVerticalSpacing = 15;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 2048;
+					- m_transform = 0.000126238 0 0 0.000113298 462 211.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].High-Level State Chart.run.StatechartOfRun.boil";
+					- m_csName = "led_4";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID 15bdeac9-21e6-4cc0-b6ec-70c7ae78e864;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "BoundElement";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IState";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "ROOT.run.ROOT.run.cool";
+						- _id = GUID 905f3cdb-c6a2-4a20-b74a-e6f8eb8683b3;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "cool";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -6 -9  33 -9  33 9  -6 9  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_transform = 1 0 0 1 420 233 ;
+						- m_nHorizontalSpacing = 25;
+						- m_nVerticalSpacing = 15;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 2048;
+					- m_transform = 0.000126238 0 0 0.000113298 462 227.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].High-Level State Chart.run.StatechartOfRun.cool";
+					- m_csName = "led_5";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIFreeText 
+					- _id = GUID fa9ce68c-2d6a-4fff-a49b-e84c70257243;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "FreeText";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "16";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 189;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 1 0 0 1 86 12 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_points = 4 378 103  416 103  416 121  378 121  ;
+					- m_text = "Phase";
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID 5d3b16a1-8abc-470a-a31e-14936a615af0;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "None";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IReception";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "evUIIncrease()";
+						- _id = GUID d542dcc4-6e7c-42ff-9d36-d8152a9cec8b;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 8192;
+					- m_transform = 0.000291319 0 0 0.000261456 108 238.291 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].evUIIncrease";
+					- m_csName = "pushbutton_2";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+					- m_csButtonCaption = "+";
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID 4c9f23fd-e1ab-46ae-a89d-f5021cff95e5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "ShowName";
+												- _Value = "None";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IReception";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "evUIDescrease()";
+						- _id = GUID 74d7b1f1-613e-4d1c-a4a5-34252ffb9e6f;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 8192;
+					- m_transform = 0.000291319 0 0 0.000261456 201 241.291 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].evUIDescrease";
+					- m_csName = "pushbutton_2";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+					- m_csButtonCaption = "-";
+				}
+				{ CGIActiveX 
+					- _id = GUID 129547ea-daa8-43fa-b06b-00dfbfdbe464;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "MatrixDisplay";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;Caption;;Style;9;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 220;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "uiDisplay";
+						- _id = GUID b750f0d7-3fce-4654-b624-1825c9f5970c;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.00320451 0 0 0.000732077 31 169.816 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].uiDisplay";
+					- m_csName = "";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID 80739832-bf70-40ec-8cb3-cf39d181d9a0;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IReception";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "evModeChange()";
+						- _id = GUID f66d4c59-66fb-4de4-a831-aad41a934ed3;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_4";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000378714 0 0 0.000261456 289 283.291 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "HERMSpkg.Controller[0].evModeChange";
+					- m_csName = "pushbutton_4";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+					- m_csButtonCaption = "Mode";
+				}
+				{ CGIActiveX 
+					- _id = GUID d6bfda3b-88b5-4312-9a71-1f7d46f69a12;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "GPIO_PIN";
+						- _name = "value";
+						- _id = GUID ad9c03b5-e099-46de-9a61-c3fc45bc8de2;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "GPIO-00";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000126238 0 0 0.000113298 275 390.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].itsGPIOHeader.GPIO_00.value";
+					- m_csName = "GPIO-00";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPort";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "GPIOHeader";
+							- _name = "GPIO_00";
+							- _id = GUID 63ad834d-4abc-4bbb-aed2-8c3b6d8fbfc0;
+						}
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "itsGPIOHeader";
+							- _id = GUID 3e8aa846-59ab-4e6d-bd4f-f2faac8a7c06;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID 98520232-5c0b-4161-96f6-784d5e8e987b;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "GPIO_PIN";
+						- _name = "value";
+						- _id = GUID ad9c03b5-e099-46de-9a61-c3fc45bc8de2;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "GPIO-01";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000126238 0 0 0.000113298 351 388.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].itsGPIOHeader.GPIO_01.value";
+					- m_csName = "GPIO-01";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPort";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "GPIOHeader";
+							- _name = "GPIO_01";
+							- _id = GUID 632fa589-fc00-455c-a6c5-4baaba1005e7;
+						}
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "itsGPIOHeader";
+							- _id = GUID 3e8aa846-59ab-4e6d-bd4f-f2faac8a7c06;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID a7925307-10d5-4664-819d-1fda0f9284bc;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "GPIO_PIN";
+						- _name = "value";
+						- _id = GUID ad9c03b5-e099-46de-9a61-c3fc45bc8de2;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "GPIO-02";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000126238 0 0 0.000113298 424 392.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].itsGPIOHeader.GPIO_02.value";
+					- m_csName = "GPIO-02";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPort";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "GPIOHeader";
+							- _name = "GPIO_02";
+							- _id = GUID 55454376-038d-436e-920a-deb87cc0848e;
+						}
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "itsGPIOHeader";
+							- _id = GUID 3e8aa846-59ab-4e6d-bd4f-f2faac8a7c06;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				
+				- m_access = 'Z';
+				- m_modified = 'N';
+				- m_fileVersion = "";
+				- m_nModifyDate = 0;
+				- m_nCreateDate = 0;
+				- m_creator = "";
+				- m_bScaleWithZoom = 1;
+				- m_arrowStyle = 'S';
+				- m_pRoot = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+				- m_currentLeftTop = 0 0 ;
+				- m_currentRightBottom = 0 0 ;
+			}
+			- _defaultSubsystem = { IHandle 
+				- _m2Class = "";
+			}
+		}
+	}
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 241ddd0a-5640-4dae-93e1-a5b937e4c526;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 2.7.2015::21:57:3;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "ControllerPkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "ControllerPkg";
+				- _id = GUID cd25ba95-12ce-4f47-bdc3-24491d335f09;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID e2bd5fcf-5957-4e03-87cb-b3c72580f2ff;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID e2bd5fcf-5957-4e03-87cb-b3c72580f2ff;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 3;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "IncludeRequirementsAsComments";
+										- _Value = "Always";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "UseDecriptionTemplate, Always";
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Operation";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "AnimAllowInvocation";
+										- _Value = "All";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "None, Public, Protected, All";
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "WebComponents";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Port";
+										- _Value = "8080";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "WebFramework";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "GenerateInstrumentationCode";
+										- _Value = "False";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Animation";
+			- _modifiedTimeWeak = 2.7.2015::23:20:44;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 532bef5d-fc80-4efc-89d1-3273d945da5d;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\Rhapsody\\HERMS\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 142ea657-0d25-4594-aad7-1da7c1cef83c;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\Rhapsody\\HERMS\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Derived;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 10;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "";
+					- _subsystem = "HERMSpkg";
+					- _class = "";
+					- _name = "BoilKettle";
+					- _id = GUID e3c8f591-efc9-4830-9796-12905155acc9;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "ControllerPkg.sbs";
+					- _subsystem = "ControllerPkg";
+					- _class = "";
+					- _name = "Controller";
+					- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "SystemPkg.sbs";
+					- _subsystem = "SystemPkg";
+					- _class = "";
+					- _name = "HERMS";
+					- _id = GUID 4b6aa697-9978-4495-9646-fadb84ec5323;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "";
+					- _subsystem = "HERMSpkg";
+					- _class = "";
+					- _name = "HotLiqourTank";
+					- _id = GUID 831ea926-2c37-4192-ab9b-8055dee96e91;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "SystemPkg.sbs";
+					- _subsystem = "SystemPkg";
+					- _class = "";
+					- _name = "Kettle";
+					- _id = GUID 6db74e1e-a795-47e5-9d83-6bc80f82edb4;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "SystemPkg.sbs";
+					- _subsystem = "SystemPkg";
+					- _class = "";
+					- _name = "LevelSensor";
+					- _id = GUID 79aaa4b4-0847-4258-b3b7-ed4c76c05c22;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "";
+					- _subsystem = "HERMSpkg";
+					- _class = "";
+					- _name = "MashTun";
+					- _id = GUID 7bb57b7d-225b-4463-8499-1521a5a32782;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "SystemPkg.sbs";
+					- _subsystem = "SystemPkg";
+					- _class = "";
+					- _name = "Pump";
+					- _id = GUID 07bdfb9e-527f-4139-a3fb-373b4f8fa1a1;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "SystemPkg.sbs";
+					- _subsystem = "SystemPkg";
+					- _class = "";
+					- _name = "Valve";
+					- _id = GUID 54398384-2810-4ada-8982-08dca484ad35;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Types.sbs";
+					- _subsystem = "Types";
+					- _class = "";
+					- _name = "Fluid";
+					- _id = GUID 43a7c417-5a29-47e3-9dd6-bae3c6677da8;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID e0e14d12-d4ae-4987-966a-6efa73d8624c;
+				- _myState = 8192;
+				- _name = "Animation";
+				- _modifiedTimeWeak = 2.7.2015::22:31:22;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 2.7.2015::23:20:44;
+			- strongCGTime = 2.7.2015::23:20:44;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 3.2.2015::23:51:6;
+	- strongCGTime = 2.8.2015::0:25:40;
+}
+
