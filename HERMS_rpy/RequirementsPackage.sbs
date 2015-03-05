@@ -1,0 +1,241 @@
+I-Logix-RPY-Archive version 8.11.0 C++ 8254044
+{ ISubsystem 
+	- _id = GUID aba2fd20-74b2-485e-83fc-ff7c866e041e;
+	- _myState = 8192;
+	- _name = "RequirementsPackage";
+	- Annotations = { IRPYRawContainer 
+		- size = 13;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 43a4c4d5-240b-4054-a72d-39e9750c0d58;
+			- _myState = 8192;
+			- _name = "UI-01";
+			- Dependencies = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _modifiedTimeWeak = 3.5.2015::2:26:17;
+			- _lastID = 1;
+			- _body = "User must be able to specify the strike volume via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID a91adcea-5150-467f-b7c9-eded7f03b2ec;
+			- _myState = 8192;
+			- _name = "UI-02";
+			- Annotations = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _modifiedTimeWeak = 3.5.2015::2:19:0;
+			- _body = "User must be able to specify the strike temperature via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID 9c6ddaed-c2b3-418f-bf98-98b6fae4e534;
+			- _myState = 8192;
+			- _name = "UI-03";
+			- _modifiedTimeWeak = 3.5.2015::2:19:5;
+			- _body = "User must be able to specify mash temperature";
+		}
+		{ IRequirement 
+			- _id = GUID afb9069b-72c7-4f11-92f7-b6e39978f2bf;
+			- _myState = 8192;
+			- _name = "UI-04";
+			- _modifiedTimeWeak = 3.5.2015::2:19:10;
+			- _body = "User must be able to specify mash duration via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID a5e86e02-0d95-4954-b0d3-72eb4269ca08;
+			- _myState = 8192;
+			- _name = "UI-05";
+			- _modifiedTimeWeak = 3.5.2015::2:19:14;
+			- _body = "User must be able to specify the sparge volume via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID e0cf9baf-dcdc-41b1-993c-a7606fba4a6a;
+			- _myState = 8192;
+			- _name = "UI-06";
+			- _modifiedTimeWeak = 3.5.2015::2:19:19;
+			- _body = "User must be able to specify the boil volume via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID 2a58eeb4-5c66-467d-9809-c5e66bb87a48;
+			- _myState = 8192;
+			- _name = "UI-07";
+			- _modifiedTimeWeak = 3.5.2015::2:19:23;
+			- _body = "User must be able to specify the boil duration. via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID b860b7ab-bcbe-4910-94b1-59741347e1c1;
+			- _myState = 8192;
+			- _name = "UI-08";
+			- _modifiedTimeWeak = 3.5.2015::2:19:27;
+			- _body = "User must be able to specify the flow rate of the pump from 0 ? 10, corresponding to 0% flow ? 100% flow via the user interface";
+		}
+		{ IRequirement 
+			- _id = GUID d16e7eec-ec44-4708-ad7a-ad014b21577f;
+			- _myState = 8192;
+			- _name = "UI-09";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.5.2015::2:19:31;
+			- _body = "The controller must prevent the user from entering a volume which exceeds the capacity of a vessel.";
+		}
+		{ IRequirement 
+			- _id = GUID 38e24c42-e54d-4049-b773-1cfcca3922c0;
+			- _myState = 8192;
+			- _name = "UI-10";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.5.2015::2:17:47;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 The controller must prevent the user from entering a strike, mash, or sparge temp over 200\\'ba F\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID 4420482c-d934-4256-b5b2-4cfd6fc082a6;
+			- _myState = 8192;
+			- _name = "UI-11";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.5.2015::2:18:23;
+			- _body = "The controller must prevent the user from entering a boil duration longer than 2 hours.";
+		}
+		{ IRequirement 
+			- _id = GUID 0b26f3e4-ba15-4215-8abf-1e35693c157b;
+			- _myState = 8192;
+			- _name = "UI-12";
+			- _modifiedTimeWeak = 3.5.2015::2:18:42;
+			- _body = "The UI shall provide a way for the user to start brew process.";
+		}
+		{ IRequirement 
+			- _id = GUID 70c84f93-d6e3-4fbe-9b46-943a0af6d928;
+			- _myState = 8192;
+			- _name = "UI-13";
+			- _modifiedTimeWeak = 3.5.2015::2:20:38;
+			- _body = "UI-13: The UI shall provide a way for the user to stop the brew process.";
+		}
+	}
+	- _modifiedTimeWeak = 3.5.2015::2:50:4;
+	- _lastID = 17;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+			- _myState = 8192;
+			- _name = "safety-requirement";
+			- _modifiedTimeWeak = 3.5.2015::2:36:11;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+	}
+	- weakCGTime = 3.5.2015::2:50:4;
+	- strongCGTime = 3.5.2015::2:6:5;
+	- _defaultComposite = GUID 99ce5552-b01c-498b-8db8-fdd0dd3459d8;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 99ce5552-b01c-498b-8db8-fdd0dd3459d8;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.5.2015::2:6:5;
+			- weakCGTime = 3.5.2015::2:6:5;
+			- strongCGTime = 3.5.2015::2:6:5;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- TableInstances = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ITableInstance 
+			- _id = GUID 54b296c6-7731-445a-b5c8-8644e520e46c;
+			- _myState = 10240;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "General";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "TableView";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "TableSortColumnState";
+										- _Value = "1,0,0";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "requirementstable_2";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Requirements";
+					- _class = "";
+					- _name = "RequirementsTable";
+					- _id = GUID ac8ca999-c415-4942-b5eb-99bb8da2415c;
+				}
+			}
+			- _modifiedTimeWeak = 3.5.2015::2:50:4;
+			- LayoutHandle = { IHandle 
+				- _m2Class = "ITableLayout";
+				- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+				- _subsystem = "SysML::Requirements";
+				- _class = "";
+				- _name = "ReqTableLayout";
+				- _id = GUID 8f1f7467-b093-4abe-9871-3462587c6bc8;
+			}
+			- ScopeHandles = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IProject";
+					- _filename = "";
+					- _subsystem = "";
+					- _class = "";
+					- _name = "HERMS";
+					- _id = GUID b6dfd9b7-9101-401c-92e7-f91873088ad2;
+				}
+			}
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

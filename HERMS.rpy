@@ -146,8 +146,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 3.3.2015::2:33:2;
-	- _lastID = 3;
+	- _modifiedTimeWeak = 3.5.2015::2:1:17;
+	- _lastID = 4;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -173,7 +173,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = 25;
+			- _count = 26;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";
@@ -189,7 +189,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 4;
+		- size = 5;
 		- value = 
 		{ ISubsystem 
 			- fileName = "ControllerPkg";
@@ -208,6 +208,10 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _persistAs = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy";
 			- _id = GUID d9689b73-885e-44c4-896b-de43defa0a33;
 			- _isReference = 1;
+		}
+		{ ISubsystem 
+			- fileName = "RequirementsPackage";
+			- _id = GUID aba2fd20-74b2-485e-83fc-ff7c866e041e;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 

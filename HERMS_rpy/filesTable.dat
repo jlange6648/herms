@@ -1,10 +1,11 @@
 I-Logix-RPY-Archive version 8.11.0 * 8254044
 
 - filesTable = { IRPYRawContainer 
-	- size = 5;
+	- size = 6;
 	- value = "HERMS.rpy" ""
 	"HERMS_rpy\\ControllerPkg.sbs" "ControllerPkg"
 	"HERMS_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"HERMS_rpy\\RequirementsPackage.sbs" "RequirementsPackage"
 	"HERMS_rpy\\SystemPkg.sbs" "SystemPkg"
 	"HERMS_rpy\\Types.sbs" "Types"
 	
