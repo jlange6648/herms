@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _id = GUID 13ff702b-7575-48e5-8eff-456e8c47bb56;
 	- _myState = 139264;
 	- _name = "DefaultComponent";
-	- _modifiedTimeWeak = 3.4.2015::1:48:52;
+	- _modifiedTimeWeak = 3.10.2015::0:22:22;
 	- _lastID = 1;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -198,7 +198,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			}
 			- _name = "UI";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "3.4.2015::1:50:27";
+			- _lastModifiedTime = "3.10.2015::0:22:29";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 5c6c6d3d-635f-4ade-b9b7-c8096c7e7def;
 				- m_type = 0;
@@ -222,7 +222,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 63;
+				- elementList = 71;
 				{ CGIBox 
 					- _id = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
 					- m_type = 215;
@@ -316,7 +316,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 58 -11 ;
+					- m_transform = 1 0 0 1 -1 -12 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 378 123  506 123  506 256  378 256  ;
 				}
@@ -544,7 +544,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 2048;
-					- m_transform = 0.000126238 0 0 0.000113298 462 147.126 ;
+					- m_transform = 0.000126238 0 0 0.000113298 404 146.126 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -641,7 +641,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 2048;
-					- m_transform = 0.000126238 0 0 0.000113298 462 163.126 ;
+					- m_transform = 0.000126238 0 0 0.000113298 404 162.126 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -738,7 +738,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 2048;
-					- m_transform = 0.000126238 0 0 0.000113298 462 179.126 ;
+					- m_transform = 0.000126238 0 0 0.000113298 404 178.126 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -835,7 +835,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 2048;
-					- m_transform = 0.000126238 0 0 0.000113298 462 195.126 ;
+					- m_transform = 0.000126238 0 0 0.000113298 404 194.126 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -932,7 +932,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 2048;
-					- m_transform = 0.000126238 0 0 0.000113298 462 211.126 ;
+					- m_transform = 0.000126238 0 0 0.000113298 404 210.126 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -1029,7 +1029,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 2048;
-					- m_transform = 0.000126238 0 0 0.000113298 462 227.126 ;
+					- m_transform = 0.000126238 0 0 0.000113298 404 226.126 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -1098,7 +1098,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 86 12 ;
+					- m_transform = 1 0 0 1 28 11 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 378 103  416 103  416 121  378 121  ;
 					- m_text = "Phase";
@@ -3483,7 +3483,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0688705 0 0 0.0263389 837.344 264.658 ;
+					- m_transform = 0.0688705 0 0 0.0263389 679.344 177.658 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
 					- m_nNameFormat = 0;
@@ -3540,7 +3540,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0688705 0 0 0.0263389 841.344 320.658 ;
+					- m_transform = 0.0688705 0 0 0.0263389 683.344 233.658 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
 					- m_nNameFormat = 0;
@@ -3597,7 +3597,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0688705 0 0 0.0263389 842.344 381.658 ;
+					- m_transform = 0.0688705 0 0 0.0263389 684.344 294.658 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
 					- m_nNameFormat = 0;
@@ -3654,7 +3654,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0688705 0 0 0.0263389 983.344 254.658 ;
+					- m_transform = 0.0688705 0 0 0.0263389 777.344 351.658 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
 					- m_nNameFormat = 0;
@@ -3703,7 +3703,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0688705 0 0 0.0263389 968.344 314.658 ;
+					- m_transform = 0.0688705 0 0 0.0263389 684.344 352.658 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
 					- m_nNameFormat = 0;
@@ -3713,6 +3713,557 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 					}
 					- m_csModelObjPath = "ControllerPkg.Controller[0].spargeVolume";
 					- m_csName = "sparge Vol";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID 7d1076e0-61be-4ade-8c3d-1aec13ef390d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "GPIO_PIN";
+						- _name = "value";
+						- _id = GUID ad9c03b5-e099-46de-9a61-c3fc45bc8de2;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "HLT Heater Enabled";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000126238 0 0 0.000113298 154 333.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].gpioHeader.GPIO_12.value";
+					- m_csName = "HLT Heater Enabled";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPort";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "GPIOHeader";
+							- _name = "GPIO_12";
+							- _id = GUID 6ce0d8bb-5d23-4cc9-8e93-359bae1279b7;
+						}
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "gpioHeader";
+							- _id = GUID 3e8aa846-59ab-4e6d-bd4f-f2faac8a7c06;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID aee5cc7d-5592-4f25-af0b-87a92db2a424;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Led";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 219;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "GPIO_PIN";
+						- _name = "value";
+						- _id = GUID ad9c03b5-e099-46de-9a61-c3fc45bc8de2;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "Boil Heater Enabled";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000126238 0 0 0.000113298 608 341.126 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].gpioHeader.GPIO_11.value";
+					- m_csName = "Boil Heater Enabled";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPort";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "GPIOHeader";
+							- _name = "GPIO_11";
+							- _id = GUID 3faf041e-035a-4c0a-9237-db2b35a586c1;
+						}
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "gpioHeader";
+							- _id = GUID 3e8aa846-59ab-4e6d-bd4f-f2faac8a7c06;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGIActiveX 
+					- _id = GUID b2516fff-03d4-4a5f-8eb3-9a57791200dd;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Knob";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackGroundColor;12632256;DivisionLineThickness;2;DotColor;16711680;EndAngle;-45;Font;Arial;;8.25;0;0;0;0;400;0;GradientFactor;0.7;LineColor;4210752;MaximumValue;10;MinimumValue;0;NumberOfDivisions;10;NumberOfSubdivisions;1;RelativeBubbleRadius;0.6;RelativeDotPositionRadius;0.75;RelativeDotRadius;0.11;RelativeExternalRadius;1.1;RelativeInternalRadius;1;RelativeTextRadius;0.98;StartAngle;225;SubdivisionLineThickness;1;TextColor;4210752;Value;0;ValueFormatString;%.0f;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Knob";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Direction";
+												- _Value = "InOut";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 216;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "SystemPkg.sbs";
+						- _subsystem = "SystemPkg";
+						- _class = "VariableValve";
+						- _name = "rate";
+						- _id = GUID 848b4dc8-ad6f-49bf-807f-cf2c283e9046;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "Flow Rate";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.00119441 0 0 0.00085409 523 98.9514 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].flowLimiter.rate";
+					- m_csName = "Flow Rate";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "flowLimiter";
+							- _id = GUID 001afdf5-fd39-42c7-b4b2-21bf5d95d3c4;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGITextBox 
+					- _id = GUID 23bbef39-cc76-41ca-8e1e-116426a348ac;
+					- m_type = 224;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "SystemPkg.sbs";
+						- _subsystem = "SystemPkg";
+						- _class = "Kettle";
+						- _name = "temperature";
+						- _id = GUID fd563fd9-3fc2-4d9d-a6ad-fb68e00d4afd;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "HLT Temp";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0688705 0 0 0.0263389 788.344 178.658 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].hlt.temperature";
+					- m_csName = "HLT Temp";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "hlt";
+							- _id = GUID df39acee-1875-4e53-84ce-01f12622afec;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGITextBox 
+					- _id = GUID a51d1c1f-1754-4df4-9388-53af07bbce32;
+					- m_type = 224;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "SystemPkg.sbs";
+						- _subsystem = "SystemPkg";
+						- _class = "Kettle";
+						- _name = "temperature";
+						- _id = GUID fd563fd9-3fc2-4d9d-a6ad-fb68e00d4afd;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "MT Temp";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0688705 0 0 0.0263389 789.344 237.658 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].mashTun.temperature";
+					- m_csName = "MT Temp";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "mashTun";
+							- _id = GUID 386f42c9-90f3-4e3e-953e-ef89a8a56df9;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGITextBox 
+					- _id = GUID e6cf264f-d8ce-4247-8477-588ad927f771;
+					- m_type = 224;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "SystemPkg.sbs";
+						- _subsystem = "SystemPkg";
+						- _class = "Kettle";
+						- _name = "temperature";
+						- _id = GUID fd563fd9-3fc2-4d9d-a6ad-fb68e00d4afd;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "Boil Temp";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0688705 0 0 0.0263389 791.344 295.658 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].boilKettle.temperature";
+					- m_csName = "Boil Temp";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "Controller";
+							- _name = "boilKettle";
+							- _id = GUID 299ab39a-3877-4dd4-af55-67d54e3aebae;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGITextBox 
+					- _id = GUID 51878992-7db1-41ad-9ddf-5244a8d55636;
+					- m_type = 224;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "mashCounter";
+						- _id = GUID 84fd79ff-d3d0-48f8-abb2-9a1cb99319b3;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "mashCounter";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0688705 0 0 0.0263389 743.344 408.658 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].mashCounter";
+					- m_csName = "mashCounter";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _filename = "ControllerPkg.sbs";
+							- _subsystem = "ControllerPkg";
+							- _class = "";
+							- _name = "Controller";
+							- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+						}
+					}
+				}
+				{ CGITextBox 
+					- _id = GUID dca95b33-7907-42db-a91f-ed9f80d2215e;
+					- m_type = 224;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _filename = "ControllerPkg.sbs";
+						- _subsystem = "ControllerPkg";
+						- _class = "Controller";
+						- _name = "mashTime";
+						- _id = GUID 286b28f8-ff10-42aa-aa43-22b11d2a64a4;
+					}
+					- m_pParent = GUID 94fa8929-f329-43e0-80fd-8c3976f91644;
+					- m_name = { CGIText 
+						- m_str = "textbox_9";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0688705 0 0 0.0263389 933.344 182.658 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 -5 -25  -5 1114  1084 1114  1084 -25  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "ControllerPkg.Controller[0].mashTime";
+					- m_csName = "textbox_9";
 					- m_PartsArray = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -3942,7 +4493,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 	- SelectedVariants = { IRPYRawContainer 
 		- size = 0;
 	}
-	- weakCGTime = 3.4.2015::1:48:52;
+	- weakCGTime = 3.10.2015::0:22:22;
 	- strongCGTime = 3.3.2015::0:41:32;
 }
 

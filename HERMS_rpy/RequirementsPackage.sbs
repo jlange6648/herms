@@ -4,15 +4,12 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _myState = 8192;
 	- _name = "RequirementsPackage";
 	- Annotations = { IRPYRawContainer 
-		- size = 13;
+		- size = 46;
 		- value = 
 		{ IRequirement 
 			- _id = GUID 43a4c4d5-240b-4054-a72d-39e9750c0d58;
 			- _myState = 8192;
 			- _name = "UI-01";
-			- Dependencies = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _modifiedTimeWeak = 3.5.2015::2:26:17;
 			- _lastID = 1;
 			- _body = "User must be able to specify the strike volume via the user interface";
@@ -21,9 +18,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID a91adcea-5150-467f-b7c9-eded7f03b2ec;
 			- _myState = 8192;
 			- _name = "UI-02";
-			- Annotations = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _modifiedTimeWeak = 3.5.2015::2:19:0;
 			- _body = "User must be able to specify the strike temperature via the user interface";
 		}
@@ -131,9 +125,291 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _modifiedTimeWeak = 3.5.2015::2:20:38;
 			- _body = "UI-13: The UI shall provide a way for the user to stop the brew process.";
 		}
+		{ IRequirement 
+			- _id = GUID af10237d-28e3-4060-b100-97869be2cfee;
+			- _myState = 8192;
+			- _name = "CONTROL-1";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.8.2015::14:48:57;
+			- _body = "At no time shall the volume of liquid in a vessel exceed the user requested level.";
+		}
+		{ IRequirement 
+			- _id = GUID d34a5501-4f06-404d-861e-7e570fb24dd1;
+			- _myState = 8192;
+			- _name = "CONTROL-2";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.8.2015::14:48:49;
+			- _body = "At no time shall a heating element be enabled without liquid in the kettle.";
+		}
+		{ IRequirement 
+			- _id = GUID c75879b4-6b08-4882-94a1-33c4a9039f76;
+			- _myState = 8192;
+			- _name = "CONTROL-3";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.8.2015::14:48:38;
+			- _body = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 At no time shall the temperature of the HLT or BK reach more than 5\\'ba F higher than the configured temperature\\par
+}
+";
+		}
+		{ IRequirement 
+			- _id = GUID cbb1562b-1781-469c-a7d7-b94ad247a86a;
+			- _myState = 8192;
+			- _name = "CONTROL-4";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.8.2015::14:48:31;
+			- _body = "At no time shall the pump run while the valve solenoids are being configured.";
+		}
+		{ IRequirement 
+			- _id = GUID 64dad137-6638-403f-8cb8-26024ef146a6;
+			- _myState = 8192;
+			- _name = "WATER-PHASE-1";
+			- _modifiedTimeWeak = 3.8.2015::14:53:5;
+			- _body = "The BK will be filled to the desired strike volume.";
+		}
+		{ IRequirement 
+			- _id = GUID 117be00b-7d2f-4fcd-b5e7-977e73291709;
+			- _myState = 8192;
+			- _name = "WATER-PHASE-2";
+			- _modifiedTimeWeak = 3.8.2015::14:53:32;
+			- _body = "The HLT will be filled to the desired sparge volume";
+		}
+		{ IRequirement 
+			- _id = GUID a129568b-9f8d-4958-b24b-d5a036881b16;
+			- _myState = 8192;
+			- _name = "WATER-PHASE-3";
+			- _modifiedTimeWeak = 3.8.2015::14:54:19;
+			- _body = "Valves must be configured to flow from the cold-water inlet into the HLT as well as the BK";
+		}
+		{ IRequirement 
+			- _id = GUID ab2ba040-ed0e-4a20-a80c-406839be725e;
+			- _myState = 8192;
+			- _name = "WATER-PHASE-4";
+			- _modifiedTimeWeak = 3.8.2015::14:54:34;
+			- _body = "Water fill phase ends when the BK and HLT both reach the desired volumes.";
+		}
+		{ IRequirement 
+			- _id = GUID 3ff9adcf-75ad-44a4-beb4-603d0b4f6105;
+			- _myState = 8192;
+			- _name = "STRIKE-PHASE-1";
+			- _modifiedTimeWeak = 3.8.2015::14:54:57;
+			- _body = "Water in the BK & HLT must be at desired strike temperature.";
+		}
+		{ IRequirement 
+			- _id = GUID b35a0c49-09b4-42ff-a02e-5275eac28d55;
+			- _myState = 8192;
+			- _name = "STRIKE-PHASE-2";
+			- _modifiedTimeWeak = 3.8.2015::14:55:17;
+			- _body = "Valves must be configured to flow from the BK outlet to the MT inlet.";
+		}
+		{ IRequirement 
+			- _id = GUID d61b8ad4-34ed-4266-9585-86aba3b44049;
+			- _myState = 8192;
+			- _name = "STRIKE-PHASE-3";
+			- _modifiedTimeWeak = 3.8.2015::14:55:35;
+			- _body = "Once BK & HLT reach desired temperature, water shall be transferred from the BK to the MT";
+		}
+		{ IRequirement 
+			- _id = GUID 368c2785-91fd-45c7-bb47-b7e802419168;
+			- _myState = 8192;
+			- _name = "STRIKE-PHASE-4";
+			- _modifiedTimeWeak = 3.8.2015::14:55:50;
+			- _body = "Strike phase ends when the MT has reached the desired volume.";
+		}
+		{ IRequirement 
+			- _id = GUID c9278117-ce48-435f-b761-c0ba44acfd9e;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-1";
+			- _modifiedTimeWeak = 3.8.2015::14:56:44;
+			- _body = "Valves must be configured to flow from the cold-water inlet to the BK inlet.";
+		}
+		{ IRequirement 
+			- _id = GUID c72734a5-4c73-4684-abaf-6df16ff464dc;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-2";
+			- _modifiedTimeWeak = 3.8.2015::14:57:2;
+			- _body = "The BK shall be filled to the desired sparge volume.";
+		}
+		{ IRequirement 
+			- _id = GUID 55881c78-b61e-451e-9243-143117b15b88;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-3";
+			- Dependencies = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _modifiedTimeWeak = 3.11.2015::22:23:15;
+			- _lastID = 1;
+			- _body = "Once the BK is at the correct volume, the water in the kettle is brought to the desired mash-out temperature.";
+		}
+		{ IRequirement 
+			- _id = GUID 738c5c03-f4f1-42e7-ba51-5c0491810513;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-4";
+			- _modifiedTimeWeak = 3.8.2015::14:57:38;
+			- _body = "In parallel to the BK coming up to temperature, the valves must be configured to flow from the MT outlet to the heat exchanger";
+		}
+		{ IRequirement 
+			- _id = GUID 0e31265b-b3bc-43c0-a77c-ea8024c7f097;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-5";
+			- _modifiedTimeWeak = 3.8.2015::14:57:53;
+			- _body = "The pump will circulate wort through the heat exchanger for the duration of the mash phase";
+		}
+		{ IRequirement 
+			- _id = GUID c6b5d195-17cf-4c84-aaa8-892eb725e1cb;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-6";
+			- _modifiedTimeWeak = 3.8.2015::14:58:11;
+			- _body = "The system will raise the temperature of the mash by increasing the temperature of the water in the HLT. The System will hold the mash at the specified temperature for the specified duration of time.";
+		}
+		{ IRequirement 
+			- _id = GUID f58c5995-1e62-4c96-bd3e-ec2fc4444eb9;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-7";
+			- _modifiedTimeWeak = 3.8.2015::14:58:30;
+			- _body = "The pump shall turn off at the end of the mash phase.";
+		}
+		{ IRequirement 
+			- _id = GUID 950cc765-433a-472e-ae3e-e714e8ba0f2c;
+			- _myState = 8192;
+			- _name = "MASH-PHASE-8";
+			- _modifiedTimeWeak = 3.8.2015::14:58:48;
+			- _body = "Mash phase ends when the mash schedule has completed, and the water in the BK has reached the desired mash-out temperature.";
+		}
+		{ IRequirement 
+			- _id = GUID fe22e8f0-8ea6-44c8-ba56-6c2dec3a1d89;
+			- _myState = 8192;
+			- _name = "SPARGE-PHASE-1";
+			- _modifiedTimeWeak = 3.8.2015::14:59:6;
+			- _body = "Valves must be configured to flow from the outlet of the BK to the MT";
+		}
+		{ IRequirement 
+			- _id = GUID e6daf364-7d7c-4154-940f-6b08deaad4d5;
+			- _myState = 8192;
+			- _name = "SPARGE-PHASE-2";
+			- _modifiedTimeWeak = 3.8.2015::14:59:21;
+			- _body = "The pump shall run until the water has been emptied from the BK.";
+		}
+		{ IRequirement 
+			- _id = GUID 6529e66d-edaa-4775-b9a3-8bcb3e11b889;
+			- _myState = 8192;
+			- _name = "SPARGE-PHASE-3";
+			- _modifiedTimeWeak = 3.8.2015::14:59:36;
+			- _body = "The sparge phase ends when all the sparge water has been pumped into the MT";
+		}
+		{ IRequirement 
+			- _id = GUID 54143438-2cb5-427f-ac90-85909c5f6876;
+			- _myState = 8192;
+			- _name = "BOIL-PHASE-1";
+			- Dependencies = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _modifiedTimeWeak = 3.11.2015::22:34:34;
+			- _lastID = 1;
+			- _body = "Valves must be configured to flow from the outlet if the MT to the inlet of the BK.";
+		}
+		{ IRequirement 
+			- _id = GUID 138d5222-0622-41b2-8e9f-4802fc54113b;
+			- _myState = 8192;
+			- _name = "BOIL-PHASE-2";
+			- _modifiedTimeWeak = 3.8.2015::15:0:12;
+			- _body = "Once the BK has reached the desired boil volume, the pump is stopped, and the wort is brought to a boil.";
+		}
+		{ IRequirement 
+			- _id = GUID 7bec617a-3287-47ef-9674-de49ff85dc87;
+			- _myState = 8192;
+			- _name = "BOIL-PHASE-3";
+			- _modifiedTimeWeak = 3.8.2015::15:0:26;
+			- _body = "Once the wort in the BK has reached boiling, the system will continue to boil wort for the specified boil duration.";
+		}
+		{ IRequirement 
+			- _id = GUID 2c494f35-f54c-4778-a1f4-70fdb6ddbc80;
+			- _myState = 8192;
+			- _name = "BOIL-PHASE-4";
+			- _modifiedTimeWeak = 3.8.2015::15:0:41;
+			- _body = "The boil phase ends after the wort has been boiled for the specified boil duration.";
+		}
+		{ IRequirement 
+			- _id = GUID e14a7186-1866-4b8a-86f9-4465fd69aeb1;
+			- _myState = 8192;
+			- _name = "COOL-PHASE-1";
+			- _modifiedTimeWeak = 3.8.2015::15:1:19;
+			- _body = "Valves must be configured to flow from the cold-water inlet to the water inlet on the chill plate.";
+		}
+		{ IRequirement 
+			- _id = GUID a4101704-1c2b-41b6-981e-bc7aea2f008a;
+			- _myState = 8192;
+			- _name = "COOL-PHASE-2";
+			- _modifiedTimeWeak = 3.8.2015::15:1:37;
+			- _body = "Valves must be configured to flow from the BK outlet to the wort inlet on the chill plate.";
+		}
+		{ IRequirement 
+			- _id = GUID b8773f5c-3675-4f94-b77b-2ba171a0c844;
+			- _myState = 8192;
+			- _name = "COOL-PHASE-3";
+			- _modifiedTimeWeak = 3.8.2015::15:1:57;
+			- _body = "The pump shall run until the BK is empty.";
+		}
+		{ IRequirement 
+			- _id = GUID d714c3b3-1bea-4ebe-8eab-b8b38e969545;
+			- _myState = 8192;
+			- _name = "COOL-PHASE-4";
+			- _modifiedTimeWeak = 3.8.2015::15:2:16;
+			- _body = "The cool phase ends when the BK is empty.";
+		}
+		{ IRequirement 
+			- _id = GUID 0adbc381-8fed-44a9-98de-97602d973145;
+			- _myState = 8192;
+			- _name = "GENERAL-1";
+			- _modifiedTimeWeak = 3.8.2015::15:2:41;
+			- _body = "The System must be capable of brewing 5 gallon batches of beer.";
+		}
+		{ IRequirement 
+			- _id = GUID 8b8c5c74-28ac-40f2-a35b-b954b973d1ac;
+			- _myState = 8192;
+			- _name = "GENERAL-2";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _id = GUID cf6fe935-249e-47d8-8a8d-62f40c94617f;
+				}
+			}
+			- _modifiedTimeWeak = 3.8.2015::15:3:6;
+			- _body = "The System shall have an emergency which shall disconnect the electrical system from the main power input.";
+		}
 	}
-	- _modifiedTimeWeak = 3.5.2015::2:50:4;
-	- _lastID = 17;
+	- _modifiedTimeWeak = 3.11.2015::22:34:34;
+	- _lastID = 52;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -148,7 +424,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			}
 		}
 	}
-	- weakCGTime = 3.5.2015::2:50:4;
+	- weakCGTime = 3.11.2015::22:34:34;
 	- strongCGTime = 3.5.2015::2:6:5;
 	- _defaultComposite = GUID 99ce5552-b01c-498b-8db8-fdd0dd3459d8;
 	- _eventsBaseID = -1;
@@ -159,8 +435,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 99ce5552-b01c-498b-8db8-fdd0dd3459d8;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.5.2015::2:6:5;
-			- weakCGTime = 3.5.2015::2:6:5;
+			- _modifiedTimeWeak = 3.10.2015::1:37:25;
+			- weakCGTime = 3.10.2015::1:37:25;
 			- strongCGTime = 3.5.2015::2:6:5;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

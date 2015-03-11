@@ -3,9 +3,9 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _id = GUID b6ed9584-46b6-4276-adda-d977e08432bd;
 	- _myState = 8192;
 	- _name = "Types";
-	- _modifiedTimeWeak = 3.5.2015::2:41:32;
+	- _modifiedTimeWeak = 3.10.2015::1:10:57;
 	- _lastID = 5;
-	- weakCGTime = 3.5.2015::2:41:32;
+	- weakCGTime = 3.10.2015::1:10:57;
 	- strongCGTime = 2.5.2015::3:24:28;
 	- _defaultComposite = GUID 6922572e-af91-4f45-a2e8-1ccf6586c89f;
 	- _eventsBaseID = -1;
@@ -16,8 +16,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 6922572e-af91-4f45-a2e8-1ccf6586c89f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.12.2015::2:25:50;
-			- weakCGTime = 2.12.2015::2:25:50;
+			- _modifiedTimeWeak = 3.5.2015::2:41:32;
+			- weakCGTime = 3.5.2015::2:41:32;
 			- strongCGTime = 2.5.2015::3:24:28;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -284,14 +284,14 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID 8169396c-a860-42b8-bbb1-8a88cbab3805;
 				}
 			}
-			- _modifiedTimeWeak = 3.5.2015::2:40:23;
+			- _modifiedTimeWeak = 3.10.2015::1:10:57;
 			- _typedefBaseType = { IClassifierHandle 
 				- _m2Class = "IType";
-				- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-				- _subsystem = "SysML::SIDefinitions::BaseSIUnits";
+				- _filename = "PredefinedTypesC++.sbs";
+				- _subsystem = "PredefinedTypesCpp";
 				- _class = "";
-				- _name = "Second";
-				- _id = GUID 3949bc39-f8eb-4ee5-96b9-5eab14943561;
+				- _name = "unsigned int";
+				- _id = GUID 7688bde5-e3a0-4b4d-bcd7-cbfa35c3b811;
 			}
 			- _typedefMultiplicity = "1";
 			- _typedefIsOrdered = 0;
