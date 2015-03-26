@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _id = GUID 13ff702b-7575-48e5-8eff-456e8c47bb56;
 	- _myState = 139264;
 	- _name = "DefaultComponent";
-	- _modifiedTimeWeak = 3.10.2015::0:22:22;
-	- _lastID = 1;
+	- _modifiedTimeWeak = 3.11.2015::23:30:33;
+	- _lastID = 2;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -4325,10 +4325,10 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 	}
 	- m_configActive = { ICodeGenConfigInfoHandle 
 		- _m2Class = "ICodeGenConfigInfo";
-		- _id = GUID e2bd5fcf-5957-4e03-87cb-b3c72580f2ff;
+		- _id = GUID 2c4e1776-8d9c-40bd-8215-e472ef077861;
 	}
 	- Configs = { IRPYRawContainer 
-		- size = 1;
+		- size = 2;
 		- value = 
 		{ ICodeGenConfigInfo 
 			- _id = GUID e2bd5fcf-5957-4e03-87cb-b3c72580f2ff;
@@ -4486,6 +4486,111 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 			- m_allInAnimScope = 1;
 			- m_generateUsecases = 0;
 		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 2c4e1776-8d9c-40bd-8215-e472ef077861;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Cygwin";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "BuildCommandSet";
+										- _Value = "Release";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Debug,Release";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "production";
+			- _modifiedTimeWeak = 3.11.2015::23:31:55;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 20519ec4-0a4d-45d4-a422-50353e3b4390;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "D:/jeff/HERMS/DefaultComponent/configuration_1/DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 92bd0b2c-9eb8-473d-acf5-f5c0eb4ba9f7;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "D:/jeff/HERMS/DefaultComponent/configuration_1/MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Derived;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 0;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "ControllerPkg.sbs";
+					- _subsystem = "ControllerPkg";
+					- _class = "";
+					- _name = "Controller";
+					- _id = GUID 69d0c4d6-973b-4449-a458-e03da9f9928a;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID d7dfbb07-d2f0-4f70-a45a-854c1e0eb631;
+				- _myState = 8192;
+				- _name = "production";
+				- _modifiedTimeWeak = 3.11.2015::23:30:48;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 3.11.2015::23:31:55;
+			- strongCGTime = 3.11.2015::23:31:55;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
 	}
 	- VariationPoints = { IRPYRawContainer 
 		- size = 0;
@@ -4493,7 +4598,7 @@ eWidth;2;ScaleThinLineWidth;1;ShadedAreaRelativeSize;0;SmallScaleFont;Arial;;8.2
 	- SelectedVariants = { IRPYRawContainer 
 		- size = 0;
 	}
-	- weakCGTime = 3.10.2015::0:22:22;
+	- weakCGTime = 3.11.2015::23:30:33;
 	- strongCGTime = 3.3.2015::0:41:32;
 }
 

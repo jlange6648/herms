@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _myState = 8192;
 	- _properties = { IPropertyContainer 
 		- Subjects = { IRPYRawContainer 
-			- size = 3;
+			- size = 4;
 			- value = 
 			{ IPropertySubject 
 				- _Name = "Activity_diagram";
@@ -79,7 +79,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 				}
 			}
 			{ IPropertySubject 
-				- _Name = "CPP_CG";
+				- _Name = "CG";
 				- Metaclasses = { IRPYRawContainer 
 					- size = 1;
 					- value = 
@@ -89,10 +89,35 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- size = 1;
 							- value = 
 							{ IProperty 
+								- _Name = "IncludeRequirementsAsComments";
+								- _Value = "Always";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "UseDecriptionTemplate, Always";
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Configuration";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
 								- _Name = "Environment";
 								- _Value = "Cygwin";
 								- _Type = Enum;
 								- _ExtraTypeInfo = "MSVC,MSVCDLL,MSVCStandardLibrary,VxWorks,VxWorks6diab,VxWorks6gnu,VxWorks6diab_RTP,VxWorks6gnu_RTP,Solaris2,Cygwin,MicrosoftWinCE600,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoMomentics,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged653,WorkbenchManaged_RTP";
+							}
+							{ IProperty 
+								- _Name = "ShowCgSimplifiedModelPackage";
+								- _Value = "False";
+								- _Type = Bool;
 							}
 						}
 					}
@@ -146,8 +171,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 3.8.2015::16:35:23;
-	- _lastID = 4;
+	- _modifiedTimeWeak = 3.24.2015::1:55:53;
+	- _lastID = 6;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -189,7 +214,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 5;
+		- size = 6;
 		- value = 
 		{ ISubsystem 
 			- fileName = "ControllerPkg";
@@ -212,6 +237,12 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 		{ ISubsystem 
 			- fileName = "RequirementsPackage";
 			- _id = GUID aba2fd20-74b2-485e-83fc-ff7c866e041e;
+		}
+		{ IProfile 
+			- fileName = "RequirementsReport";
+			- _persistAs = "C:\\Users\\User\\workspace\\Requirements Exporter";
+			- _id = GUID 3ac35566-fe2d-48ac-87db-c8e11f6e6a83;
+			- _isReference = 1;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
@@ -341,7 +372,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "3.8.2015::16:35:23";
+			- _lastModifiedTime = "3.24.2015::1:57:19";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ad37ebbf-e516-42e6-9c64-8d854c837047;
 				- m_type = 0;

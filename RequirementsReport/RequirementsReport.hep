@@ -1,0 +1,11 @@
+[Helpers]
+numberOfElements=1
+
+#REM: Definition of the plug-in
+name1=Requirements Report
+JavaMainClass1=edu.rit.se.RequirementsReport
+JavaClassPath1=.\bin
+isPlugin1=1
+isVisible1=1
+DLLServerCompatible1=
+

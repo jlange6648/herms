@@ -1,0 +1,79 @@
+I-Logix-RPY-Archive version 8.11.0 C++ 8254044
+{ IProfile 
+	- _id = GUID 3ac35566-fe2d-48ac-87db-c8e11f6e6a83;
+	- _myState = 8192;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 2;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "General";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Model";
+						- Properties = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IProperty 
+								- _Name = "AdditionalHelpersFiles";
+								- _Value = "C:\\Users\\User\\workspace\\Requirements Exporter\\req.hep";
+								- _Type = String;
+							}
+							{ IProperty 
+								- _Name = "HelpersFile";
+								- _Value = "";
+								- _Type = File;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "Model";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Profile";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "AdditionalHelpersFiles";
+								- _Value = "C:\\Users\\User\\workspace\\Requirements Exporter\\req.hep";
+								- _Type = String;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "Requirements";
+	- _modifiedTimeWeak = 3.22.2015::19:5:50;
+	- weakCGTime = 3.22.2015::19:5:50;
+	- strongCGTime = 3.22.2015::19:5:50;
+	- _defaultComposite = GUID 975e521f-f437-4327-9347-e2cbc4c886ee;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 975e521f-f437-4327-9347-e2cbc4c886ee;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.22.2015::19:5:50;
+			- weakCGTime = 3.22.2015::19:5:50;
+			- strongCGTime = 3.22.2015::19:5:50;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

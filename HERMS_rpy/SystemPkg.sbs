@@ -16,9 +16,9 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 4c4fe8f6-c6d3-4f32-affa-8a3709c3915a;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.5.2015::1:12:25;
+			- _modifiedTimeWeak = 3.8.2015::17:39:10;
 			- _lastID = 1;
-			- weakCGTime = 3.5.2015::1:12:25;
+			- weakCGTime = 3.8.2015::17:39:10;
 			- strongCGTime = 2.22.2015::19:6:39;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -19243,7 +19243,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID cdf1d395-12a1-4fbf-9358-8e05a67bb6dc;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID d18bed4f-937e-460a-a74c-83cfa0e3bcde;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -19357,7 +19378,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "ControllerPkg::Controller.gpioHeader:GPIOHeader";
+								- m_str = "gpioHeader";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22002,7 +22023,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.pump:Pump";
+								- m_str = "pump";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22236,7 +22257,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v1:Valve";
+								- m_str = "v1";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22344,7 +22365,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v2:Valve";
+								- m_str = "v2";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22452,7 +22473,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v3:Valve";
+								- m_str = "v3";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22560,7 +22581,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v4:Valve";
+								- m_str = "v4";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22668,7 +22689,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v5:Valve";
+								- m_str = "v5";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22776,7 +22797,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v6:Valve";
+								- m_str = "v6";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22884,7 +22905,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v7:Valve";
+								- m_str = "v7";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -22992,7 +23013,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v8:Valve";
+								- m_str = "v8";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -23100,7 +23121,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v9:Valve";
+								- m_str = "v9";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -25484,12 +25505,12 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 								- m_bImplicitSetRectPoints = 0;
 								- m_nOrientationCtrlPt = 8;
 							}
-							- m_arrow = 2 196 450  196 534  ;
+							- m_arrow = 2 165 446  165 534  ;
 							- m_anglePoint1 = 0 0 ;
 							- m_anglePoint2 = 0 0 ;
 							- m_line_style = 2;
-							- m_SourcePort = 30 38 ;
-							- m_TargetPort = 34 33 ;
+							- m_SourcePort = 34 36 ;
+							- m_TargetPort = 34 36 ;
 							- m_bShowSourceMultiplicity = 0;
 							- m_bShowSourceRole = 0;
 							- m_bShowTargetMultiplicity = 0;
@@ -25597,7 +25618,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.boil:HeatedKettle";
+								- m_str = "boil";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -25845,12 +25866,12 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 								- m_bImplicitSetRectPoints = 0;
 								- m_nOrientationCtrlPt = 8;
 							}
-							- m_arrow = 2 525 199  525 122  ;
+							- m_arrow = 2 536 202  536 120  ;
 							- m_anglePoint1 = 0 0 ;
 							- m_anglePoint2 = 0 0 ;
 							- m_line_style = 2;
-							- m_SourcePort = 31 33 ;
-							- m_TargetPort = 32 40 ;
+							- m_SourcePort = 34 36 ;
+							- m_TargetPort = 34 36 ;
 							- m_bShowSourceMultiplicity = 0;
 							- m_bShowSourceRole = 0;
 							- m_bShowTargetMultiplicity = 0;
@@ -25958,7 +25979,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.hlt:HotLiqourTank";
+								- m_str = "hlt";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -26313,7 +26334,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							}
 							- m_pParent = GUID ed178ee3-c781-47d1-bf90-bcf92f6cbe2f;
 							- m_name = { CGIText 
-								- m_str = "HERMS.v10:Valve";
+								- m_str = "v10";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -27363,7 +27384,28 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 1566ee06-8d4c-4950-96cb-7039df6e42c6;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID 847c67f0-0d33-4ec6-9e17-145733f0ca01;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -27727,7 +27769,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_targetType = 'T';
 							- m_direction = ' ';
 							- m_rpn = { CGIText 
-								- m_str = "";
+								- m_str = "heater_heaterEnable";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -32056,9 +32098,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID 3fb306f9-9ee4-4905-8a6e-15bd476bec4c;
 					- _myState = 139264;
 					- _name = "TemperatureSensor";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 3.8.2015::17:43:50;
 					- m_path = "";
 					- m_type = implFile;
@@ -32078,9 +32117,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
 							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
-							}
 						}
 						{ IFileFragment 
 							- _id = GUID c643ed1c-dd65-4a81-887b-82113612c54e;
@@ -32094,9 +32130,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_endCol_Short = 20;
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
-							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
 							}
 						}
 						{ IFileFragment 
@@ -32181,9 +32214,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID e976a4a5-f994-4cbc-a85e-17a0342975d9;
@@ -32249,9 +32279,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 1;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -32320,9 +32347,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 										- _m2Class = "IPrimitiveOperation";
 										- _id = GUID 58076368-9c0b-4f56-95ed-f21a53cfdc15;
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 5c321cd6-7f92-4d40-a6f7-725fdcfba929;
@@ -32388,9 +32412,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 1;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -32458,9 +32479,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 53ef2695-3b42-4954-937f-f80abb730f13;
@@ -32526,9 +32544,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 1;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -32596,9 +32611,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 52e668d6-7720-4a67-8ee1-781318cbf3dc;
@@ -32664,9 +32676,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 1;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -32734,9 +32743,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 							}
 						}
@@ -32746,9 +32752,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					- _id = GUID 22ca37af-ef62-4745-a2ed-e3d0b84b80ff;
 					- _myState = 139264;
 					- _name = "TemperatureSensor";
-					- Dependencies = { IRPYRawContainer 
-						- size = 0;
-					}
 					- _modifiedTimeWeak = 3.8.2015::17:43:50;
 					- m_path = "";
 					- m_type = specFile;
@@ -32768,9 +32771,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
 							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
-							}
 						}
 						{ IFileFragment 
 							- _id = GUID eeb6d5e7-ab19-4331-81f9-ca41a5f17e4e;
@@ -32784,9 +32784,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_endCol_Short = 45;
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
-							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
 							}
 						}
 						{ IFileFragment 
@@ -32802,9 +32799,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
 							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
-							}
 						}
 						{ IFileFragment 
 							- _id = GUID 5e4c553f-c411-4e60-8687-b1b7b5d617a4;
@@ -32818,9 +32812,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_endCol_Short = 23;
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
-							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
 							}
 						}
 						{ IFileFragment 
@@ -32836,9 +32827,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
 							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
-							}
 						}
 						{ IFileFragment 
 							- _id = GUID f09a6135-8c4c-4af4-a637-b2d1e10f3411;
@@ -32852,9 +32840,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 							- m_endCol_Short = 13;
 							- m_subject = { INObjectHandle 
 								- _m2Class = "";
-							}
-							- Fragments = { IRPYRawContainer 
-								- size = 0;
 							}
 						}
 						{ IFileFragment 
@@ -32940,9 +32925,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID a6470ae4-34a1-436b-82c4-5d1e275eb913;
@@ -32958,9 +32940,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID e714193f-7c31-4de7-8b37-1903a308eb51;
@@ -32975,9 +32954,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 32236f58-6d7a-4c8a-8f7c-b8e885303ccc;
@@ -32991,9 +32967,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 33;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -33010,9 +32983,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 01adac48-3d51-4cc0-88ce-671d5891fd27;
@@ -33027,9 +32997,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "IPrimitiveOperation";
 										- _id = GUID 58076368-9c0b-4f56-95ed-f21a53cfdc15;
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -33046,9 +33013,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 56b93842-f437-4e3b-881d-623540fffb02;
@@ -33062,9 +33026,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 33;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -33080,9 +33041,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID ac01087a-3c0f-4160-9b0e-ddca3b3a20b6;
@@ -33096,9 +33054,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 28;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -33115,9 +33070,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 35ca47e4-bdff-4971-9397-51caffb40758;
@@ -33132,9 +33084,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "IAssociationEnd";
 										- _id = GUID cb33e7e9-5714-406f-90bc-2f73e2854ba9;
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -33151,9 +33100,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID 0e87d04a-ff10-4303-b8cf-ff139308f7ec;
@@ -33167,9 +33113,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 42;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 								{ IFileFragment 
@@ -33185,9 +33128,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
 									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ IFileFragment 
 									- _id = GUID b8fdc64d-0930-44bf-8066-b7f4d01bc35e;
@@ -33201,9 +33141,6 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 									- m_endCol_Short = 27;
 									- m_subject = { INObjectHandle 
 										- _m2Class = "";
-									}
-									- Fragments = { IRPYRawContainer 
-										- size = 0;
 									}
 								}
 							}
