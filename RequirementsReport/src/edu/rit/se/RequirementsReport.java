@@ -1,7 +1,5 @@
 package edu.rit.se;
 
-import javax.swing.JOptionPane;
-
 import com.telelogic.rhapsody.core.IRPApplication;
 import com.telelogic.rhapsody.core.RPUserPlugin;
 
@@ -26,6 +24,8 @@ public class RequirementsReport extends RPUserPlugin {
 		// TODO Auto-generated method stub
 		m_rhpApplication.writeToOutputWindow(null , "Requirements Report Plugin Running...\n");
 		ReqExporter.performAction(m_rhpApplication);
+		m_rhpApplication.writeToOutputWindow(null , "Requirements Report Plugin Done.\n");
+
 	}
 
 	@Override
