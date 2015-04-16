@@ -29,17 +29,21 @@ public class ReqExporter {
 			return;
 		}
 
-		String buildPath = project.getActiveConfiguration().getDirectory(1, "");
-		
-	
-		
-		  
+		String buildPath = project.getActiveConfiguration().getDirectory(1, "");		
+		File dir = new File(buildPath);
+		File[] directoryListing = dir.listFiles();
+		if (directoryListing == null) {
+			System.out.println("No Code!");
+			output += "<h1>Note: No generated source code found.</h1>";
+		}
+
 		output += "<table><tbody>";
 		for (Object r : project.getNestedElementsByMetaClass("Requirement", 1).toList())
 		{
 			output += "<tr><td>";
 			IRPRequirement req = (IRPRequirement)r;
 			output += "<h1>" + req.getName();
+
 			for (Object s : req.getStereotypes().toList())
 			{
 				IRPStereotype st = (IRPStereotype) s;
@@ -84,8 +88,57 @@ public class ReqExporter {
 			{
 				output += "</ul>";
 			}
+		
+			boolean refined = false;
+			for (Object d : req.getDependencies().toList())
+			{
+				RPDependency dep = (RPDependency) d;
+
+				if (!refined)
+				{
+					output += "Refines Requirement<ul>";
+				}
+				output += "<li>" + dep.getDependsOn().getName() + "<br>";
+				refined = true;
+			}
+			if (refined)
+			{
+				output += "</ul>";
+			}
 			
-			Vector<String> fileMatches = parseSourceFiles (buildPath, req.getName());
+			refined = false;
+			for (Object ref : req.getReferences().toList())
+			{
+				IRPModelElement el = (IRPModelElement) ref;
+				if (el.getClass().getName().equals("com.telelogic.rhapsody.core.RPDependency"))
+				{
+					RPDependency dep = (RPDependency)el;
+					
+					for (Object s : el.getStereotypes().toList())
+					{
+						if (((IRPStereotype) s).getName().equals("refine"))
+						{
+							String path = dep.getDependent().getFullPathName();
+							// Ignore the internal simplified model
+							if ( !path.startsWith("CGSimplifiedModelPackage"))
+							{
+								if (!refined)
+								{
+									output += "Refined By Requirement<ul>";
+								}
+								output += "<li>" + dep.getDependent().getName() + "<br>";
+								refined = true;
+							}
+						}
+					}
+				}
+			}
+			if (refined)
+			{
+				output += "</ul>";
+			}
+
+			Vector<String> fileMatches = parseSourceFiles (buildPath, req.getName(), app);
 			if (!fileMatches.isEmpty())
 			{
 				output += "Source File:<ul>";
@@ -109,7 +162,7 @@ public class ReqExporter {
 		JOptionPane.showMessageDialog(null, scrollPane);
 	}
 
-	public static Vector<String> parseSourceFiles (String path, String requirement)
+	public static Vector<String> parseSourceFiles (String path, String requirement, IRPApplication app)
 	{
 		Vector<String> values = new Vector<String>();
 		File dir = new File(path);
@@ -130,25 +183,21 @@ public class ReqExporter {
 					}
 					scanner.close();
 				} catch (FileNotFoundException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+					// nothing					
 				}
 			}
-		} else {
-			System.out.println ("Source Code has not been generated.");
-
 		}
 		return values;
 	}
 	
 	public static void main(String[] args) {
-		//IRPApplication app = RhapsodyAppServer.getActiveRhapsodyApplication();
-		//performAction (app);
+		IRPApplication app = RhapsodyAppServer.getActiveRhapsodyApplication();
+		performAction (app);
 		//parseSourceFiles ("D:\\herms\\DefaultComponent\\production", "BOIL-PHASE-2");
-		for (String match : parseSourceFiles ("D:\\herms\\DefaultComponent\\production", "BOIL-PHASE-2"))
-		{
-			System.out.println ( match );
-		}
+		//for (String match : parseSourceFiles ("D:\\herms\\DefaultComponent\\production", "BOIL-PHASE-2"))
+		//{
+		//	System.out.println ( match );
+		//}
 	}
 
 }

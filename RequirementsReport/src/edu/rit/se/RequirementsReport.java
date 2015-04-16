@@ -14,8 +14,6 @@ public class RequirementsReport extends RPUserPlugin {
 
 		// keep the application interface for later use
 		m_rhpApplication = rpyApplication;
-		// show the build number
-		//JOptionPane.showMessageDialog(null, "Hello world from SimplePlugin.RhpPluginInit.\n You are using Rhapsody build "	+ m_rhpApplication.getBuildNo());
 		m_rhpApplication.writeToOutputWindow(null , "Requirements Report Plugin Initialized.\n");
 	}
 
@@ -30,28 +28,20 @@ public class RequirementsReport extends RPUserPlugin {
 
 	@Override
 	public void OnMenuItemSelect(String menuItem) {
-		// TODO Auto-generated method stub
-		m_rhpApplication.writeToOutputWindow(null , "Menu: " + menuItem + "\n");
 	}
 
 	@Override
 	public void OnTrigger(String trigger) {
-		// TODO Auto-generated method stub
-		m_rhpApplication.writeToOutputWindow(null , "Trigger: " + trigger + "\n");
 	}
 
 	@Override
 	public boolean RhpPluginCleanup() {
-		// TODO Auto-generated method stub
-		m_rhpApplication.writeToOutputWindow(null , "Plugin Cleanup\n");
 		m_rhpApplication = null;
 		return false;
 	}
 
 	@Override
 	public void RhpPluginFinalCleanup() {
-		// TODO Auto-generated method stub
-		m_rhpApplication.writeToOutputWindow(null , "Final Cleanup\n");
 	}
 
 }
