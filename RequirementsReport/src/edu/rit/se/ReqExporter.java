@@ -1,28 +1,58 @@
 package edu.rit.se;
 
+import java.awt.Desktop;
 import java.awt.Dimension;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.List;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.Vector;
 
 import javax.swing.JEditorPane;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
+import javax.swing.event.HyperlinkEvent;
+import javax.swing.event.HyperlinkListener;
 
 import com.telelogic.rhapsody.core.*;
 
+class fileResult {
+	public fileResult (File filename, int line) {
+		this.filename = filename;
+		this.line = line;
+	}
+	public File filename;
+	public int line;
+}
+
 public class ReqExporter {
 	
-	public static void performAction (IRPApplication app) {
+	public static void performAction (final IRPApplication app) {
+		
+		// create a temp directory for the HTMLized source files
+		Path tmpdir;
+		try {
+			tmpdir = Files.createTempDirectory("req_report_");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return;
+		}
+
 		String output = "<html><head><style>"
 				+ "h1 {margin-bottom: 5px; padding: 0;}"
 				+ "h1 span.stereotype {font-size: 75%;}"
 				+ "span.not-satisfied {font-weight: bold; color: red;}"
 				+ "</style></head><body>";
 		
-		IRPProject project = app.activeProject();
+		final IRPProject project = app.activeProject();
 		
 		if (project == null) {
 			app.writeToOutputWindow(null ,"No Rhapsody project currently open!<br>");
@@ -72,8 +102,14 @@ public class ReqExporter {
 								{
 									output += "Satisfied by<ul>";
 								}
-								output += "<li>" + path + "<br>";
+								output += "<li>" + path;
 								satisfied = true;
+								if (dep.getDependent() instanceof RPState)
+								{
+									RPState st = (RPState) dep.getDependent();
+									output += "<a href='state:/" +
+											st.getGUID() + "'> (open diagram)</a>";
+								}
 							}
 						}
 					}
@@ -138,14 +174,14 @@ public class ReqExporter {
 				output += "</ul>";
 			}
 
-			Vector<String> fileMatches = parseSourceFiles (buildPath, req.getName(), app);
+			Vector<fileResult> fileMatches = parseSourceFiles (tmpdir, buildPath, req.getName(), app);
 			if (!fileMatches.isEmpty())
 			{
 				output += "Source File:<ul>";
 				
-				for (String match : fileMatches)
+				for (fileResult match : fileMatches)
 				{
-					output += "<li>" + match;
+					output += "<li><a href='" + match.filename.toURI().toString() + "'>" + match.filename.getName() + " line " + match.line + "</a>";
 				}
 				output += "</ul>";
 			}
@@ -153,8 +189,44 @@ public class ReqExporter {
 		}
 		output += "</table></body></html>";
 		
-		JEditorPane editor = new JEditorPane ("text/html", output);
+		final JEditorPane editor = new JEditorPane();
+		editor.setEditorKit(JEditorPane.createEditorKitForContentType("text/html"));
+		editor.setEditable(false);
 		editor.setPreferredSize(new Dimension(800,500));
+		editor.setText(output);
+
+		editor.addHyperlinkListener(new HyperlinkListener() {
+			@Override
+		    public void hyperlinkUpdate(HyperlinkEvent e) {
+		        if(e.getEventType() == HyperlinkEvent.EventType.ACTIVATED) {
+		        	if (e.getDescription().startsWith("file:/"))
+		        	{
+		        		// open the file in the default system editor.
+		        		if (Desktop.isDesktopSupported())
+		        		{
+		        			Desktop desktop = Desktop.getDesktop();
+		        			try {
+		        				URI u = new URI(e.getDescription());
+								desktop.browse(u);
+							} catch (IOException e1) {
+								e1.printStackTrace();
+							} catch (URISyntaxException e1) {
+								// TODO Auto-generated catch block
+								e1.printStackTrace();
+							}
+		        		}		        		
+		        	}
+		        	else if (e.getDescription().startsWith("state:/"))
+		        	{
+		        		String state = e.getDescription().replaceFirst("state:/", "");
+		        		RPState st = (RPState) project.findElementByGUID(state);
+		        		IRPStatechartDiagram d = st.getItsStatechart().getStatechartDiagram();
+		        		d.highLightElement();
+
+		        	}
+		        }
+		    }
+		});
 
 		// wrap a scrollpane around it
 		JScrollPane scrollPane = new JScrollPane(editor);	      
@@ -162,9 +234,11 @@ public class ReqExporter {
 		JOptionPane.showMessageDialog(null, scrollPane);
 	}
 
-	public static Vector<String> parseSourceFiles (String path, String requirement, IRPApplication app)
+
+	
+	public static Vector<fileResult> parseSourceFiles (Path tmpdir, String path, String requirement, IRPApplication app)
 	{
-		Vector<String> values = new Vector<String>();
+		Vector<fileResult> values = new Vector<fileResult>();
 		File dir = new File(path);
 		File[] directoryListing = dir.listFiles();
 		if (directoryListing != null) {
@@ -177,8 +251,9 @@ public class ReqExporter {
 						line++;
 						final String lineFromFile = scanner.nextLine();
 						if(lineFromFile.contains("// Realizes requirement " + requirement)) { 
-					       // a match!
-							values.add (child.getName() + ":" + line);
+							// a match!
+							fileResult r = new fileResult(child, line);
+							values.add (r);
 						}
 					}
 					scanner.close();
@@ -189,7 +264,7 @@ public class ReqExporter {
 		}
 		return values;
 	}
-	
+
 	public static void main(String[] args) {
 		IRPApplication app = RhapsodyAppServer.getActiveRhapsodyApplication();
 		performAction (app);
