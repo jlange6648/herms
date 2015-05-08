@@ -21,7 +21,8 @@ public class RequirementsReport extends RPUserPlugin {
 	public void RhpPluginInvokeItem() {
 		// TODO Auto-generated method stub
 		m_rhpApplication.writeToOutputWindow(null , "Requirements Report Plugin Running...\n");
-		ReqExporter.performAction(m_rhpApplication);
+		//ReqExporter.performAction(m_rhpApplication);
+		new ReqExporter.SimpleThread("test", m_rhpApplication).start();
 		m_rhpApplication.writeToOutputWindow(null , "Requirements Report Plugin Done.\n");
 
 	}

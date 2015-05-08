@@ -265,8 +265,21 @@ public class ReqExporter {
 		return values;
 	}
 
+	public static class SimpleThread extends Thread {
+	    public SimpleThread(String str, IRPApplication app) {
+	    	super(str);
+	    	this.m_app = app;
+	    }
+	    IRPApplication m_app;
+	    public void run() {
+	    	performAction (m_app);
+	    }
+	}
+	
 	public static void main(String[] args) {
+		
 		IRPApplication app = RhapsodyAppServer.getActiveRhapsodyApplication();
+		//
 		performAction (app);
 		//parseSourceFiles ("D:\\herms\\DefaultComponent\\production", "BOIL-PHASE-2");
 		//for (String match : parseSourceFiles ("D:\\herms\\DefaultComponent\\production", "BOIL-PHASE-2"))
